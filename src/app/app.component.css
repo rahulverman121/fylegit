@@ -23,3 +23,11 @@ header {
     padding-left: 1rem;
     border-radius: 1.5rem 0 0 1.5rem;
 }
+footer {
+    display: flex ;
+    height : 5rem ;
+    margin-bottom: 3%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
