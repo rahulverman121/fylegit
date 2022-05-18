@@ -1,0 +1,70 @@
+.userrepo {
+    
+    display: flex;
+    flex-wrap: wrap ;
+    margin : 5% ;
+   justify-content: center ;
+}
+.repsec {
+    
+}
+a {
+    text-decoration: none ;
+}
+.repcon {
+    border : 0.1rem solid white;
+    width : 12rem ;
+    height: 16rem;
+    padding: 1.5rem ;
+    cursor: pointer;  
+    overflow :hidden ;
+    border-radius: 0.8rem ;
+}
+.repcon:hover {
+    width : 13.5rem ;
+    box-shadow: 0 0 1rem white ;
+    height : 18rem ;
+}
+.repname {
+    text-decoration: none ;
+    font-size: 1.3rem ;
+    font-weight: bold;
+}
+.updated {
+    font-style: italic;
+    font-size: 0.8rem ;
+    margin-bottom: 1.2rem ;
+}
+.desc {
+
+
+}
+.lang {
+    margin-top : 5rem ;
+    position: absolute ;
+    border : 0.1rem solid white ;
+    display : flex ;
+    width : 4.5rem ;
+    border-radius: 1rem ;
+    padding : 0.5rem 1rem ;
+}
+.pagination {
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.page {
+    padding: 0.2rem 1rem ;
+    display: flex ;
+    justify-content: center;
+    font-weight: bold ;
+    font-size: 1.4rem ;
+    border: 0.1rem solid white;
+    width : 0.8rem ;
+    margin : 0 0.4rem ;
+    cursor : pointer ;
+}
+.page:hover {
+    box-shadow: 0 0 0.4rem white;
+    font-size: 1.5rem ;
+}

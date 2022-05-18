@@ -1,0 +1,8 @@
+<header>
+    <img src="./assets/git.jpg" alt="https://github.com" class="logo"> 
+    <input type="text" placeholder="Search Github User.." class="search" (keyup)="getuser($event)">
+</header>
+
+<app-userdetail [name]="userr"></app-userdetail>
+
+<app-userrepo [name]="userr"></app-userrepo>

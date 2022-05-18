@@ -1,0 +1,23 @@
+<section class="userdetail">
+    <div class="profilecon">
+        <img src={{user.avatar_url}} alt="User Profile" class="profile">
+        <a href={{user.html_url}}>
+            <div class="url">
+                https://github.com/{{name}}
+            </div>
+        </a>
+    </div>
+    <div class="profiledetail">
+        <div class="name">{{user.name}}</div>
+        <div class="updated">Last Updated : {{user.updated_at}}</div>
+        <div class="location">
+        <img src="./assets/location.png" class="loca">
+        &nbsp;{{user.location}}</div>
+        <div class="bio">{{user.bio}}</div>
+        <div class="repo">Total Repo : {{user.public_repos}}</div>
+        <div class="following">following : {{user.following}}</div>
+        <div class="followers">followers : {{user.followers}}</div>
+    </div>
+</section>
+
+

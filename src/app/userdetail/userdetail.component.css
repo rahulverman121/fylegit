@@ -1,0 +1,35 @@
+.userdetail {
+    display : flex; 
+    justify-content: center;
+    margin-top: 7% ;
+}
+.profilecon {
+    margin-right: 5%;
+}
+.profile {
+    width : 15rem ;
+    height: 15rem;
+    border-radius: 50% ;
+    margin : 0 3rem 2rem 0;
+}
+.url {
+    font-style: italic;
+    cursor : pointer ;
+}
+.profiledetail {
+    margin-left: 5%;
+    margin-top : 3rem;
+
+}
+.name {
+    font-weight: bold;
+    font-size: 1.4rem ;
+}
+.updated {
+    font-style: italic;
+    font-size: 0.8rem ;
+    margin-bottom: 1.2rem ;
+}
+.loca {
+    width : 1rem ;
+}

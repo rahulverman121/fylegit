@@ -1,0 +1,24 @@
+<section class="userrepo">
+<div class="repsec" *ngFor="let rep of repo; first as fr; index as i; count as totalrepo">
+    <div *ngIf='i>=start && i<=end'>
+    <a href={{rep.html_url}} >
+        <div style="margin:3rem">
+        <div class="repcon">
+            <div class="repname">
+                {{rep.name}}
+            </div>
+            <div class="updated">Last Updated {{rep.updated_at}}</div>
+            <div class="desc">{{rep.description}}</div>
+            <div class="lang">{{rep.language}}</div>
+        </div>
+        </div>
+    </a>
+    </div>
+</div>
+</section>
+<section class="pagination">
+    <div *ngFor="let rep of repo;index as i;count as totalrepo" >
+        <div class="page" *ngIf="(i+6)%6==0" (click)="setpage((i+6)/6)">{{(i+6)/6}}</div>
+    </div>
+</section>
+

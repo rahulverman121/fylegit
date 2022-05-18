@@ -1,0 +1,25 @@
+
+header {
+    height : 3.5rem ;
+    background : black ;
+    display : flex ;
+    align-items: center ;
+    position : sticky ;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width : 2.8rem ;
+    margin-left : 2rem ;
+}
+.search {
+    position : absolute;
+    margin : 30% ;
+    font-size: 1.2rem;
+    height : 2rem ;
+    background: #584a4a;
+    width : 40% ;
+    min-width: 10rem;
+    padding-left: 1rem;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
