@@ -51,7 +51,7 @@ a {
 .pagination {
     display: flex ;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .page {
     padding: 0.2rem 1rem ;
